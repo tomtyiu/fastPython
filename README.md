@@ -142,7 +142,7 @@ val = sqrt(60)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## Tips
 
 1. **Profile to find bottlenecks**
    - Use `cProfile` for whole‑program, function‑level stats:
