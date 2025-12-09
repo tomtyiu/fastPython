@@ -15,3 +15,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+#time_taken = timeit.timeit(my_code, number=2)    
+#Total time taken: 0.8042198000000553
