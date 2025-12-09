@@ -92,7 +92,7 @@ Most code will use local variables and avoid long dotted methods. Code will opti
 
 
 ### Built With
-* [![IOpenAI][OpenAI.com]][OpenAI-url]
+* Python
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -100,9 +100,10 @@ Most code will use local variables and avoid long dotted methods. Code will opti
 
 <!-- GETTING STARTED -->
 ## Getting Started
+```py
+python --version
+```
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
