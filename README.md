@@ -60,9 +60,6 @@
       <a href="#about-the-project">About The Project</a>
       <ul>
         <li><a href="#built-with">Built With</a></li>
-        The FastPython is project is intended to increasae performance of python.  The focus is to provide Python code to run the python faster.
-        Most code will use local variables and avoid long dotted methods. Code will 
-    
       </ul>
     </li>
     <li>
@@ -88,8 +85,8 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started. To avoid retyping too much info, do a search and replace with your text editor for the following: `github_username`, `repo_name`, `twitter_handle`, `linkedin_username`, `email_client`, `email`, `project_title`, `project_description`, `project_license`
-
+The FastPython is project is intended to increasae performance of python.  The focus is to provide Python code to run the python faster.
+Most code will use local variables and avoid long dotted methods. Code will optimize for speed for different functions.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
