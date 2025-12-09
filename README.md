@@ -140,6 +140,39 @@ val = sqrt(60)
 #Total time taken: 6.599999323952943e-06
 ```
 
+1. **Profile to find bottlenecks**
+   - Use `cProfile` for whole‑program, function‑level stats:
+     `python -m cProfile -o stats.out your_script.py`, then inspect with `pstats` or tools like Snakeviz.
+   - Use `line_profiler` or Scalene for line‑level hotspots.
+   - Use `timeit` for micro‑benchmarks when comparing small code variants.
+   Profiling ensures you optimize the parts that actually matter. 【ymichael.com†】【jun-yan.github.io†】【devopedia.org†】【dev.to†】
+
+2. **Exploit faster built‑ins and data structures**
+   - Prefer built‑ins (`sum`, `min`, `max`, `sorted`, `any`, `all`) and `itertools` over manual loops; they run in optimized C.
+   - Choose the right container: use `dict`/`set` for O(1) average lookups instead of repeatedly scanning lists. 【geeksforgeeks.org†】
+
+3. **Make loops and list operations cheaper**
+   - Use list comprehensions and generator expressions instead of `for` + `append`.
+   - Hoist loop‑invariant work outside the loop and avoid repeated global/attribute lookups; bind to locals when a function is used in a tight loop
+.
+   - Iterate directly over items (`for x in a`) and use `zip` for multiple sequences.
+   - Avoid repeated string concatenation in loops; accumulate pieces in a list and `''.join(...)` once. 【geeksforgeeks.org†】【en.wikipedia.org†】
+
+
+4. **Improve algorithms, not just syntax**
+   - Replace quadratic algorithms with linear or `O(n log n)` ones via better data structures or sorting.
+   - Cache expensive pure functions with `functools.lru_cache` to avoid recomputation.
+
+5. **Use vectorization and compiled paths for numeric code**
+   - Replace Python loops over numbers with NumPy vectorized operations; these run in fast C code and can be 10–100× faster.
+   - For complex numeric loops that are hard to vectorize, use:
+     - **Numba**: add `@njit` to numeric, NumPy-heavy functions to JIT‑compile them.
+     - **Cython**: add static types and compile critical modules to C for maximum control.
+   Both can deliver order‑of‑magnitude speedups on tight numeric loops. 【medium.com†】【c-sharpcorner.com†】【cbtw.tech†】【geeksforgeeks.org†】
+
+6. **Environment choices**
+   - Use a recent CPython (3.11+) for built‑in speedups.
+   - For long‑running, pure‑Python workloads, consider PyPy or offloading hot sections to C/C++/Rust through Cython or dedicated libraries.
 
 
 <!-- USAGE EXAMPLES -->
