@@ -112,10 +112,10 @@ python --version
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
+Recommend Python 3.14.2
+* python
+  ```py
+  python -m pip install --upgrade pip
   ```
 
 ### Installation
