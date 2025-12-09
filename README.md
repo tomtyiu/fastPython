@@ -138,8 +138,9 @@ from math import sqrt
 val = sqrt(60)
 
 #Total time taken: 6.599999323952943e-06
-```
 
+<!-- USAGE EXAMPLES -->
+## Usage
 1. **Profile to find bottlenecks**
    - Use `cProfile` for whole‑program, function‑level stats:
      `python -m cProfile -o stats.out your_script.py`, then inspect with `pstats` or tools like Snakeviz.
@@ -174,13 +175,6 @@ val = sqrt(60)
    - Use a recent CPython (3.11+) for built‑in speedups.
    - For long‑running, pure‑Python workloads, consider PyPy or offloading hot sections to C/C++/Rust through Cython or dedicated libraries.
 
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
