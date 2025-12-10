@@ -17,13 +17,12 @@
 *** See the bottom of this document for the declaration of the reference variables
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][https://github.com/tomtyiu/fastPython/fork]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][https://github.com/tomtyiu/fastPython/issues]
 [![project_license][license-shield]][https://github.com/tomtyiu/fastPython/blob/main/LICENSE]
-
+-->
 
 
 <!-- PROJECT LOGO -->
