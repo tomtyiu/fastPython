@@ -1,5 +1,6 @@
-import numpy as np
+# fast numpy
+from numpy import array, sum
 
 def sum_numpy(nums):
-    arr = np.array(nums)
-    return np.sum(arr)
+    arr = array(nums)
+    return sum(arr)
