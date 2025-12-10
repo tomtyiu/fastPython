@@ -41,7 +41,7 @@
   <p align="center">
     High Performance Python
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tomtyiu/fastPython"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/tomtyiu/">View Demo</a>
