@@ -1,3 +1,6 @@
+import time
+from functools import lru_cache
+
 #Leverage functools.lru_cache for Repeated Calls
 @lru_cache(maxsize=None)
 def fib(n):
