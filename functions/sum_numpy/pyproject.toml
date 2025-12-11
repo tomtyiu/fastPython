@@ -1,0 +1,21 @@
+[project]
+name = "sum_numpy_fast"
+version = "0.1.0"
+description = "Fast NumPy-backed summation utility."
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+
+dependencies = [
+    "numpy>=1.26"
+]
+
+[project.urls]
+Homepage = "https://github.com/yourname/sum_numpy_fast"
+
+[build-system]
+requires = ["setuptools>=65", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["."]
