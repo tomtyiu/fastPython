@@ -82,9 +82,10 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-This is official Github site for FastPython. 
-The FastPython is project is intended to fix the issue with python performance.  The focus is to provide Python code to run the python faster.
-Most code will use local variables and avoid long dotted methods. Code will optimize for speed for different functions.
+This is the official GitHub repository for FastPython.
+FastPython is a project dedicated to improving Python’s performance through practical, drop-in code patterns and optimization techniques. The goal is simple: help Python run faster without sacrificing readability.
+
+The project emphasizes the use of local variables, reduced attribute lookups, and other micro-optimizations that meaningfully improve execution speed. Each example focuses on accelerating specific functions or workloads.
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
