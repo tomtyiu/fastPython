@@ -1,10 +1,3 @@
-The math module extends the list of mathematical functions available in Python. To use it, you must import the module:
-
-import math
-Common Functions in the Math Module
-
-math.sqrt(x): Returns the square root of a number.
-
 from math import sqrt
 def fast_sqrt(x):
     return sqrt(x)
@@ -53,3 +46,37 @@ def fast_inf():
 from math import nan
 def fast_nan:
     return nan
+
+import time
+from functools import lru_cache
+
+#Leverage functools.lru_cache for Repeated Calls
+@lru_cache(maxsize=None)
+def fib(n):
+    if n < 2:
+        return n
+    return fib(n-1) + fib(n-2)
+
+def sum_fast(x):
+    total = 0
+    for num in x:
+        total += num
+    return total
+
+#Avoid Repeated Computations
+#Store results instead of recalculating.
+
+def compute_squares(nums):
+    append = list.append  # local reference to speed up method lookup
+    result = []
+    for n in nums:
+        append(result, n * n)
+    return result
+
+# fast numpy
+from numpy import array, sum
+
+def sum_numpy(nums):
+    arr = array(nums)
+    return sum(arr)
+
