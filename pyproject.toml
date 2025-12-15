@@ -3,7 +3,7 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fastPython"
+name = "fasterPython"
 version = "0.0.1"
 authors = [
   { name="Thomas Yiu", email="tom.tyiu@gmail.com" },
@@ -19,5 +19,6 @@ license = "MIT"
 license-files = ["LICEN[CS]E*"]
 
 [project.urls]
-Homepage = "https://github.com/pypa/fastPython_math"
-Issues = "https://github.com/pypa/fastPython_math/issues"
+Homepage = "https://github.com/pypa/fasterPython"
+Issues = "https://github.com/pypa/fasterPython/issues"
+
