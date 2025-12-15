@@ -15,4 +15,4 @@ from .fasterPython.fasterPython import fib
 from .fasterPython.fasterPython import sum_fast
 from .fasterPython.fasterPython import compute_squares
 from .fasterPython.fasterPython import sum_numpy
-from .fasterPython.fasterPython import openai_api
+
