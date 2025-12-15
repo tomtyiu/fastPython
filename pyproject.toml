@@ -1,8 +1,12 @@
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "fastPython"
 version = "0.0.1"
 authors = [
-  { name="Example Author", email="author@example.com" },
+  { name="Thomas Yiu", email="tom.tyiu@gmail.com" },
 ]
 description = "This is the official GitHub repository for FastPython. FastPython is a project dedicated to improving Python’s performance through practical, drop-in code patterns and optimization techniques. The goal is simple: help Python run faster without sacrificing readability."
 readme = "README.md"
