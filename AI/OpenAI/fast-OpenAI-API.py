@@ -13,7 +13,6 @@ def OpenAIAPI(prompt):
         instructions="You are a coding assistant that talks like a pirate.",
         input=prompt,
     )
-
-#print out response
-# responses=response.output_text
-# print(responses)
+    #print out response
+    responses=response.output_text
+    print(responses)
