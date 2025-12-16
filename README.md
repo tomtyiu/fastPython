@@ -129,6 +129,9 @@ This module can be vendored directly into a project or packaged as part of a lar
 
 ```bash
 pip install fasterPython
+
+#Example
+pip install -i https://test.pypi.org/simple/ fasterpython==0.0.8
 ```
 
 If copied directly into your codebase, no installation step is required.
