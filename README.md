@@ -128,7 +128,7 @@ There is no hidden magic here. The speed comes from removing friction.
 This module can be vendored directly into a project or packaged as part of a larger performance-focused library.
 
 ```bash
-pip install fastmath-utils
+pip install fasterPython
 ```
 
 If copied directly into your codebase, no installation step is required.
@@ -154,7 +154,7 @@ fast_sin(x)
 Example:
 
 ```python
-from fastmath import fast_sqrt, fast_log
+from fasterPython.fasterPython import fast_sqrt, fast_log
 
 fast_sqrt(25)        # 5.0
 fast_log(8, 2)       # 3.0
@@ -178,7 +178,7 @@ FAST_NAN
 Example:
 
 ```python
-from fastmath import FAST_PI
+from fasterPython.fasterPython import FAST_PI
 
 area = FAST_PI * r * r
 ```
