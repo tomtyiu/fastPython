@@ -254,7 +254,7 @@ sum_numpy(nums)
 Example:
 
 ```python
-from fastmath import sum_numpy
+from fasterPython.fasterPython import sum_numpy
 
 sum_numpy(range(1_000_000))
 ```
