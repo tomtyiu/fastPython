@@ -1,3 +1,5 @@
+# install from PyPI
+# pip install anthropic
 import anthropic
 
 # Create the client once; reuse it if this code runs repeatedly
