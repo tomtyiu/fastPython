@@ -1,4 +1,4 @@
-#From Pypi
+## install from PyPI
 #uv pip install transformers
 
 # Load model directly
