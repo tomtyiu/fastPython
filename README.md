@@ -429,6 +429,7 @@ Project Link: [https://github.com/tomtyiu/fastPython](https://github.com/tomtyiu
 ## Acknowledgments
 
 * [OpenAI](https://openai.com/)
+* [Anthropic](https://www.anthropic.com/)
 * [Python.org ](https://www.python.org/)
 * [Github](https://github.com/)
 
