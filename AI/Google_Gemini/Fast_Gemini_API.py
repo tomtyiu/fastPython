@@ -1,3 +1,4 @@
+#To install , pip install -q -U google-genai
 from google import genai
 
 client = genai.Client()
