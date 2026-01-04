@@ -283,8 +283,6 @@ print(mylist)
 |---------|------------------|----------|-------------|
 | `BubbleSort` | ~20 ns | ~11 ns | ~45% |
 
-If NumPy is not installed, calling this function raises a clear runtime error instead of failing silently.
-
 ---
 
 ## When to Use This Module
