@@ -17,5 +17,5 @@ def OpenAIAPI(prompt):
         input=prompt,
     )
     #print out response
-    responses=response.output_text
+    responses=responses.output_text
     print(responses)
