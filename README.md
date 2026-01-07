@@ -140,6 +140,18 @@ If copied directly into your codebase, no installation step is required.
 
 ## API Reference
 
+## Start
+Before making changes, identify the real bottlenecks using profiling tools:
+```python
+import cProfile
+
+def main():
+    # Your code
+    ...
+
+cProfile.run('main()')
+```
+
 ### Scalar Math Functions
 
 Thin wrappers around `math` functions with minimal overhead.
