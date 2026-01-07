@@ -131,3 +131,5 @@ if __name__ == '__main__':
     with Pool(5) as p:
         print(p.map(f, range(10)))
 ```
+Normal execution time: 0.022988299999269657s
+multiprocessing execution time: 4.5000015234109014e-06s
