@@ -283,6 +283,22 @@ print(mylist)
 |---------|------------------|----------|-------------|
 | `BubbleSort` | ~20 ns | ~11 ns | ~45% |
 
+
+## Use multiprocessing, multiprocessing is a package that supports spawning processes using an API similar to the threading module.
+```py
+from multiprocessing import Pool
+
+def f(x):
+    return x*x
+
+if __name__ == '__main__':
+    with Pool(5) as p:
+        print(p.map(f, range(10)))
+```
+| Method                   | Execution Time (seconds)       |
+|--------------------------|-------------------------------|
+| Normal                   | 0.022988299999269657          |
+| Multiprocessing          | 0.0000045000015234109014      |
 ---
 ## When to Use This Module
 
