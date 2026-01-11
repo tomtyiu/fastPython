@@ -4,7 +4,7 @@ import anthropic
 
 # Create the client once; reuse it if this code runs repeatedly
 client = anthropic.Anthropic()
-  #reduce or avoid multiple dot notation for speed up
+  
 create = client.messages.create  # local binding to reduce attribute lookups
 
 # Prebuild the static user message so it isn't reconstructed each call
