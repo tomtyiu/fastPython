@@ -491,6 +491,19 @@ x = nan
 print(x) # Output: nan
 ```
 
+## Tensor optimization
+optimization of data pipleine:
+1. cache, which store your dataset in memory
+2. prefetching: preapres the the next batch while the current one is being processed
+3. Parallelsim: process data i parallele to maximize CPU utilization
+```
+# Optimized data pipeline
+dataset = tf.data.Dataset.from_tensor_slices(data)
+dataset = dataset.cache()                     # Cache data in memory
+dataset = dataset.shuffle(buffer_size=1000)   # Shuffle with an appropriate buffer
+dataset = dataset.batch(32)                   # Batch data
+dataset = dataset.prefetch(tf.data.AUTOTUNE)  # Prefetch next batch
+```
 
 
 ## License
