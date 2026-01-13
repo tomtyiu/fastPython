@@ -1,3 +1,2 @@
-# avoid manual loop
-# Reference: https://dev.to/rayeanmahmud/7-ways-to-speed-up-your-python-code-5id
-squares = [i*i for i in range(10000)]
+# Optimized, Replace lists with generators for large datasets:
+squares = (x**2 for x in range(1000000))
