@@ -23,7 +23,7 @@ result = np.sin(array_1)
 print("Time using NumPy arrays:", time.time() - start_time)
 
 ```
-
+## Why
 Please use NumPy version
 
 ```
