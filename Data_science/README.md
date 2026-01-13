@@ -1,4 +1,6 @@
 # Data science
+
+## NumPy
 Example code
 ```
 import math
