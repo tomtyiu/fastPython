@@ -498,7 +498,7 @@ if (not a_condition) or (not another_condition):
 do_something
 ```
 ### for while
-use whole 1 instead of while True
+use while 1 instead of while True
 
 
 ## Tensor optimization
